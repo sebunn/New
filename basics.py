@@ -1,8 +1,8 @@
-def print_mean():
-    student_grades = [9.1, 8.8, 7.5]
-    mean = sum(student_grades) / len(student_grades)
-    print("the mean of the grades was", mean)
+# this is working environment as I follow the Python Course
 
-
-if __name__ == "__main__":
-    print_mean()
+# test dictionary
+student_grades = {"Mary": 9.1, "Sim": 8.8, "John": 7.5, "Steve": 9.5}
+mysum = sum(student_grades.values())
+length = len(student_grades)
+mean = mysum/length
+print(mean)
